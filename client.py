@@ -16,6 +16,7 @@ def menu():
     while True:
         print("Welcome to the Forum! All rights are protected.\n1) Register\n2) Login\n3) Exit")
         selection = int(input())
+        login = ''
         response = ''
         if selection == 1:
             while response != "The registration was successful!":
